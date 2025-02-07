@@ -9,6 +9,7 @@ public class RecipeManager {
         Recipe batch3 = new Recipe("Oatmeal Raisin Cookies", false, true, false); // Object 3
 
         // Calling methods on objects to display their information
+        System.out.println(); // Space
         batch1.displayRecipeInfo();
         batch2.displayRecipeInfo();
         batch3.displayRecipeInfo();
