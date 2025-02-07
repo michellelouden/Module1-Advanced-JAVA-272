@@ -5,8 +5,8 @@ public class RecipeManager {
         System.out.println();
         // Creating objects from the "Recipe" class
         Recipe batch1 = new Recipe("Chocolate Chip Cookies", true, false, false); // Object 1
-        Recipe batch2 = new Recipe("Gluten-Free Peanut Butter Cookies", true, true, true);  // Object 2
-        Recipe batch3 = new Recipe("Oatmeal Raisin Cookies", false, false, false); // Object 3
+        Recipe batch2 = new Recipe("Peanut Butter Cookies", false, true, true);  // Object 2
+        Recipe batch3 = new Recipe("Oatmeal Raisin Cookies", false, true, false); // Object 3
 
         // Calling methods on objects to display their information
         batch1.displayRecipeInfo();
