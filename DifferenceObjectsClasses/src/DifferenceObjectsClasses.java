@@ -1,7 +1,7 @@
 // Demonstrating the differences between classes and objects in Java
 
 public class DifferenceObjectsClasses {
-    // Fields that define the properties of a "Recipe"
+    // Fields that define the properties of a recipe
     String name;
     boolean hasChocolateChips;
     boolean isGlutenFree;
